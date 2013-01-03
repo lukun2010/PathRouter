@@ -1,1 +1,5 @@
-This file was created by IntelliJ IDEA 12.0.1 for binding GitHub repository
+PathRouter can fastly identify the path inputed and return the corresponding object configured.
+Path can be splitted into each part by slash.
+Path configuration support regular expression.
+PathRouter is implemented by a tree search, each tree node is a comparable path part.
+The search speed is based on the tree size and regex complexity.
